@@ -1,0 +1,30 @@
+{
+  "orgTitleHi": "मिसाइलX रॉकेट स्पेस अनुसंधान",
+  "orgTitle": "MissileX Rocket Space Research",
+  "dashboard": "Dashboard",
+  "profile": "Profile",
+  "login": "Login",
+  "logout": "Logout",
+  "items": {
+    "home": "Home",
+    "about": "About",
+    "aboutMissionVision": "Mission & Vision",
+    "aboutMissionVisionDesc": "Objectives, research goals and the team behind MissileX.",
+    "aboutIsroLeadership": "ISRO Leadership",
+    "aboutIsroLeadershipDesc": "Leadership driving India's space research programs.",
+    "aboutKalam": "APJ Abdul Kalam",
+    "aboutKalamDesc": "Legacy of India's missile scientist and visionary leader.",
+    "activities": "Activities",
+    "research": "Research",
+    "technology": "Technology",
+    "programs": "Programs",
+    "missiles": "Missiles",
+    "rockets": "Rocket Systems",
+    "spaceSystems": "Space Systems",
+    "innovation": "Innovation",
+    "gallery": "Gallery",
+    "news": "News",
+    "careers": "Careers",
+    "contact": "Contact"
+  }
+}

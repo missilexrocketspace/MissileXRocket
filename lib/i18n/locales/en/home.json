@@ -1,0 +1,43 @@
+{
+  "hero": {
+    "eyebrow": "Future-ready Defence Research",
+    "title": "Building India's Next Generation Intelligent Missile & Space Technologies.",
+    "description": "A national research portal for advanced aerospace mission design, guided systems, sensor fusion and data analytics — supporting secure collaboration across academic, government, and industry partners.",
+    "cta1": "Visit Research Portal",
+    "cta2": "Explore Programs",
+    "referenceImagery": "Reference Imagery",
+    "imageCredit": "GSLV Mk III lift-off — Indian Space Research Organisation (GODL-India)",
+    "imageAlt": "GSLV Mk III lifting off from the launch pad with a bright exhaust plume"
+  },
+  "announcements": {
+    "label": "Announcements",
+    "item1": "Applications open for the 2026 Research Fellowship cohort.",
+    "item2": "AI Mission Planning Lab reaches full operational capacity.",
+    "item3": "New Launch Vehicle Systems research track added to the Space Research Program."
+  },
+  "news": {
+    "eyebrow": "Press & Insights",
+    "title": "Latest News",
+    "viewAll": "View all news"
+  },
+  "mission": {
+    "eyebrow": "Mission Highlights",
+    "title": "Research pathways built for defence-grade aerospace performance.",
+    "imageAlt": "Officials visiting a semiconductor research laboratory",
+    "imageCredit": "Department of Space (GODL-India)",
+    "paragraph1": "MissileX brings mission systems intelligence, advanced propulsion studies, and secure research collaboration together in a single national research platform.",
+    "paragraph2": "Our programmes span satellite data analysis, hypersonic guidance research, and space vehicle support — conducted in partnership with academic institutes, national laboratories, and industry.",
+    "stat1Label": "Research Programs",
+    "stat2Label": "Missions Supported",
+    "stat3Label": "Active Lab Nodes",
+    "stat4Label": "Verified Collaborators"
+  },
+  "gallery": {
+    "eyebrow": "Image Gallery",
+    "title": "Launches, spacecraft, and research facilities.",
+    "viewAll": "View full gallery"
+  },
+  "timeline": { "eyebrow": "Milestones", "title": "Research Timeline", "description": "How MissileX has grown as a research platform." },
+  "achievements": { "eyebrow": "Achievements", "title": "Milestones in India's space and strategic research history." },
+  "programs": { "eyebrow": "Research Programs", "title": "Structured pathways for researchers, fellows, and students.", "viewAll": "View all programs" }
+}
