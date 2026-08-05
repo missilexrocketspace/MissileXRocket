@@ -8,6 +8,7 @@ import { z } from 'zod';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { useTranslation } from 'react-i18next';
 import { useAuth } from '@/components/auth/AuthContext';
+import { diagnoseAuthError } from '@/lib/auth-errors';
 import { Mail, Lock, ShieldCheck, ArrowRight } from 'lucide-react';
 
 type LoginFormValues = { email: string; password: string };
@@ -39,7 +40,13 @@ export default function LoginPanel() {
     try {
       await signIn(values.email, values.password);
       router.push('/');
-    } catch (err) {
+    } catch (error: any) {
+      console.error('========== EMAIL/PASSWORD AUTH ERROR ==========');
+      console.error('Error:', error);
+      console.error('Code:', error.code);
+      console.error('Message:', error.message);
+      console.error('Stack:', error.stack);
+      console.error('================================================');
       setError(t('forms:status.loginError'));
     } finally {
       setLoading(false);
@@ -53,8 +60,17 @@ export default function LoginPanel() {
     try {
       await signInWithGoogle();
       router.push('/');
-    } catch (err) {
-      setError(t('forms:status.googleError'));
+    } catch (error: any) {
+      console.error('========== GOOGLE AUTH ERROR ==========');
+      console.error('Error:', error);
+      console.error('Code:', error.code);
+      console.error('Message:', error.message);
+      console.error('Stack:', error.stack);
+      console.error('======================================');
+
+      const diagnosis = diagnoseAuthError(error);
+      console.error('[Auth] Diagnosis:', diagnosis);
+      setError(`${diagnosis.friendlyMessage} (${diagnosis.code})`);
     } finally {
       setLoading(false);
     }

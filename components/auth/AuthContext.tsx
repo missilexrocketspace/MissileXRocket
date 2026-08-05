@@ -52,30 +52,43 @@ export default function AuthProvider({ children }: { children: React.ReactNode }
     let unsubscribe: (() => void) | undefined;
 
     const initializeAuth = async () => {
+      console.log('[Auth] Initializing auth state listener...');
       const firebase = await import('@/lib/firebase');
-      if (!firebase.auth) {
+      const auth = firebase.auth;
+
+      if (!auth) {
+        console.error('[Auth] firebase.auth is null — Firebase was not initialized. Check NEXT_PUBLIC_FIREBASE_* env vars.');
         setLoading(false);
         return;
       }
 
       const { onAuthStateChanged } = await import('firebase/auth');
-      unsubscribe = onAuthStateChanged(firebase.auth, (firebaseUser) => {
-        if (firebaseUser) {
-          const authUser: AuthUser = {
-            email: firebaseUser.email ?? 'unknown@missilex.space',
-            name: firebaseUser.displayName,
-            emailVerified: firebaseUser.emailVerified
-          };
+      unsubscribe = onAuthStateChanged(
+        auth,
+        (firebaseUser) => {
+          if (firebaseUser) {
+            console.log('[Auth] onAuthStateChanged: signed in as', firebaseUser.email, '(uid:', firebaseUser.uid, ')');
+            const authUser: AuthUser = {
+              email: firebaseUser.email ?? 'unknown@missilex.space',
+              name: firebaseUser.displayName,
+              emailVerified: firebaseUser.emailVerified
+            };
 
-          setUser(authUser);
-          setRole(deriveRole(firebaseUser.email));
-        } else {
-          setUser(null);
-          setRole('Guest');
+            setUser(authUser);
+            setRole(deriveRole(firebaseUser.email));
+          } else {
+            console.log('[Auth] onAuthStateChanged: no user signed in.');
+            setUser(null);
+            setRole('Guest');
+          }
+
+          setLoading(false);
+        },
+        (error) => {
+          console.error('[Auth] onAuthStateChanged listener error:', error);
+          setLoading(false);
         }
-
-        setLoading(false);
-      });
+      );
     };
 
     initializeAuth();
@@ -86,24 +99,60 @@ export default function AuthProvider({ children }: { children: React.ReactNode }
   }, []);
 
   const signIn = async (email: string, password: string) => {
+    console.log('[Auth] signIn: starting email/password sign-in for', email);
     const firebase = await import('@/lib/firebase');
-    if (!firebase.auth) throw new Error('Firebase auth not initialized');
+    const auth = firebase.auth;
+    if (!auth) throw new Error('Firebase auth not initialized');
     const { signInWithEmailAndPassword } = await import('firebase/auth');
-    await signInWithEmailAndPassword(firebase.auth, email, password);
+    const credential = await signInWithEmailAndPassword(auth, email, password);
+    console.log('[Auth] signIn: success for uid', credential.user.uid);
   };
 
   const signInWithGoogle = async () => {
+    console.log('[Auth] signInWithGoogle: starting...');
+
     const firebase = await import('@/lib/firebase');
-    if (!firebase.auth) throw new Error('Firebase auth not initialized');
+    const auth = firebase.auth;
+
+    if (!auth) {
+      const error = new Error(
+        'Firebase auth not initialized. One or more NEXT_PUBLIC_FIREBASE_* environment variables are missing or invalid.'
+      );
+      console.error('========== GOOGLE AUTH ERROR ==========');
+      console.error('Error:', error);
+      console.error('Code:', 'auth/not-initialized');
+      console.error('Message:', error.message);
+      console.error('Stack:', error.stack);
+      console.error('======================================');
+      throw error;
+    }
+
+    console.log('[Auth] signInWithGoogle: auth instance ready. authDomain =', auth.config.authDomain);
+    console.log('[Auth] signInWithGoogle: current origin =', typeof window !== 'undefined' ? window.location.origin : 'n/a');
+
     const { signInWithPopup } = await import('firebase/auth');
-    await signInWithPopup(firebase.auth, firebase.googleAuthProvider);
+
+    try {
+      console.log('[Auth] signInWithGoogle: opening popup...');
+      const result = await signInWithPopup(auth, firebase.googleAuthProvider);
+      console.log('[Auth] signInWithGoogle: success for', result.user.email, '(uid:', result.user.uid, ')');
+    } catch (error: any) {
+      console.error('========== GOOGLE AUTH ERROR ==========');
+      console.error('Error:', error);
+      console.error('Code:', error.code);
+      console.error('Message:', error.message);
+      console.error('Stack:', error.stack);
+      console.error('======================================');
+      throw error;
+    }
   };
 
   const signUp = async (email: string, password: string) => {
     const firebase = await import('@/lib/firebase');
-    if (!firebase.auth) throw new Error('Firebase auth not initialized');
+    const auth = firebase.auth;
+    if (!auth) throw new Error('Firebase auth not initialized');
     const { createUserWithEmailAndPassword, sendEmailVerification } = await import('firebase/auth');
-    const credential = await createUserWithEmailAndPassword(firebase.auth, email, password);
+    const credential = await createUserWithEmailAndPassword(auth, email, password);
     if (credential.user) {
       await sendEmailVerification(credential.user);
     }
@@ -111,25 +160,28 @@ export default function AuthProvider({ children }: { children: React.ReactNode }
 
   const signOutUser = async () => {
     const firebase = await import('@/lib/firebase');
-    if (!firebase.auth) throw new Error('Firebase auth not initialized');
+    const auth = firebase.auth;
+    if (!auth) throw new Error('Firebase auth not initialized');
     const { signOut } = await import('firebase/auth');
-    await signOut(firebase.auth);
+    await signOut(auth);
   };
 
   const sendPasswordReset = async (email: string) => {
     const firebase = await import('@/lib/firebase');
-    if (!firebase.auth) throw new Error('Firebase auth not initialized');
+    const auth = firebase.auth;
+    if (!auth) throw new Error('Firebase auth not initialized');
     const { sendPasswordResetEmail } = await import('firebase/auth');
-    await sendPasswordResetEmail(firebase.auth, email);
+    await sendPasswordResetEmail(auth, email);
   };
 
   const sendVerificationEmail = async () => {
     const firebase = await import('@/lib/firebase');
-    if (!firebase.auth || !firebase.auth.currentUser) {
+    const currentUser = firebase.auth?.currentUser;
+    if (!currentUser) {
       throw new Error('Firebase auth not initialized');
     }
     const { sendEmailVerification } = await import('firebase/auth');
-    await sendEmailVerification(firebase.auth.currentUser);
+    await sendEmailVerification(currentUser);
   };
 
   const value = useMemo(
