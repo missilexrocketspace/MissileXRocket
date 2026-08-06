@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from 'next';
 import './globals.css';
+import { Analytics } from '@vercel/analytics/next';
 
 export const metadata: Metadata = {
   title: {
@@ -38,6 +39,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <div className="min-h-screen bg-white text-charcoal">
           <RootProvider>{children}</RootProvider>
         </div>
+        <Analytics />
       </body>
     </html>
   );
