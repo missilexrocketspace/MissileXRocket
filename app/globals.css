@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  background: #ffffff;
+  color: #222222;
+}
+
+::selection {
+  background: #0a4d8c;
+  color: #ffffff;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.animation-fade {
+  animation: fadeIn 0.9s ease-out both;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.surface-panel {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04), 0 12px 32px rgba(15, 23, 42, 0.06);
+}
+
+.contrast-high {
+  --tw-text-opacity: 1;
+}
+
+.contrast-high body {
+  background: #ffffff;
+}
+
+.contrast-high * {
+  text-shadow: none !important;
+}
+
+.contrast-high a,
+.contrast-high button {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.contrast-high .text-steel {
+  color: #1a1f26 !important;
+}
+
+.contrast-high .border-line {
+  border-color: #0f172a !important;
+}

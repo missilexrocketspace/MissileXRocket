@@ -1,0 +1,51 @@
+{
+  "banner": {
+    "eyebrow": "About MissileX",
+    "title": "A sovereign research platform for defence and space missions.",
+    "description": "MissileX Rocket Space connects researchers, engineers, and mission planners with secure collaboration tools, advanced modelling, and verified analytics."
+  },
+  "vision": {
+    "eyebrow": "Vision",
+    "title": "Design India's next generation of intelligent missile and space technologies.",
+    "body": "We work towards a future where research on guidance systems, launch vehicles, and mission-critical software is conducted with precision, transparency, and national self-reliance."
+  },
+  "mission": {
+    "eyebrow": "Mission",
+    "title": "Enable strategic aerospace research through collaboration.",
+    "body": "MissileX brings together modern simulation, conceptual AI research, and collaborative mission systems to support researchers, students, and institutional partners across India."
+  },
+  "orgStructure": {
+    "eyebrow": "Organization Structure",
+    "title": "How the research organisation is structured.",
+    "governingBody": "Governing Body",
+    "boardOfGovernors": "Board of Governors",
+    "executiveLeadership": "Executive Leadership",
+    "directorGeneral": "Director General",
+    "divisions": {
+      "missileSystems": { "title": "Missile Systems Research", "focus": "Guidance, propulsion, and interceptor systems studies." },
+      "rocketSystems": { "title": "Rocket & Launch Vehicle Research", "focus": "Launch vehicle architecture and payload integration." },
+      "aiSystems": { "title": "AI & Digital Systems", "focus": "Conceptual mission planning, sensor fusion, and analytics." },
+      "programs": { "title": "Programs & Administration", "focus": "Fellowships, partnerships, and platform operations." }
+    }
+  },
+  "timeline": {
+    "eyebrow": "Timeline",
+    "title": "How MissileX has grown since founding.",
+    "entries": {
+      "founded": { "date": "2019", "title": "MissileX founded", "description": "Established as an independent aerospace and defence research initiative." },
+      "cohort": { "date": "2021", "title": "First research cohort", "description": "Inaugural Research Fellowship and Student Internship cohorts began work." },
+      "platform": { "date": "2023", "title": "Secure collaboration platform launched", "description": "Introduced role-based access for researchers, students, and administrators." },
+      "expanded": { "date": "2025", "title": "Expanded programme portfolio", "description": "Added dedicated Launch Vehicle and AI Defence Research programmes." }
+    }
+  },
+  "leadership": {
+    "eyebrow": "Leadership",
+    "title": "Leaders driving intelligent defence innovation.",
+    "description": "A cross-disciplinary team of aerospace engineers, AI experts, and systems architects.",
+    "members": {
+      "priya": { "name": "Dr. Priya Sen", "role": "Director, Mission Systems", "focus": "Strategic aerospace research and integration." },
+      "arjun": { "name": "Arjun Verma", "role": "Technical Lead", "focus": "Guidance systems, AI navigation and satellite analytics." },
+      "nikhil": { "name": "Nikhil Rao", "role": "Chief Researcher", "focus": "Advanced simulations and defence system architecture." }
+    }
+  }
+}

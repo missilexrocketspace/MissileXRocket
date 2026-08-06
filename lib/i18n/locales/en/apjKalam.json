@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "title": "APJ Abdul Kalam — Legacy of India's Missile Man | MissileX",
+    "description": "A comprehensive, educational profile of Dr. A.P.J. Abdul Kalam — his childhood, education, ISRO and DRDO careers, the missile development programme, Pokhran-II, his presidency, awards, books, and lasting legacy."
+  },
+  "banner": {
+    "eyebrow": "APJ Abdul Kalam",
+    "title": "Legacy of India's Missile Man and the People's President.",
+    "description": "Dr. Avul Pakir Jainulabdeen Abdul Kalam (1931–2015) was an aerospace scientist who led India's early satellite launch vehicle and missile programmes before serving as the 11th President of India."
+  },
+  "quickFacts": {
+    "born": "Born",
+    "bornValue": "15 October 1931, Rameswaram, Madras Presidency",
+    "died": "Passed away",
+    "diedValue": "27 July 2015, Shillong, Meghalaya",
+    "known": "Known for",
+    "knownValue": "SLV-3, Integrated Guided Missile Development Programme, 11th President of India",
+    "honour": "Highest Honour",
+    "honourValue": "Bharat Ratna (1997)"
+  },
+  "sections": {
+    "biography": "Biography",
+    "childhood": "Childhood",
+    "education": "Education",
+    "isroCareer": "ISRO Career",
+    "drdoCareer": "DRDO Career",
+    "missileProgramme": "Missile Development Programme",
+    "pokhran": "Pokhran-II Contributions",
+    "presidency": "Presidency",
+    "awards": "Awards & Honours",
+    "vision2020": "Vision 2020",
+    "quotes": "Famous Quotes",
+    "timeline": "Inspirational Timeline",
+    "gallery": "Photo Gallery",
+    "books": "Books Written",
+    "legacy": "Legacy",
+    "faq": "Frequently Asked Questions"
+  },
+  "biography": {
+    "p1": "Dr. Avul Pakir Jainulabdeen Abdul Kalam was an Indian aerospace scientist and statesman who served as the 11th President of India from 2002 to 2007. Widely referred to as the \"Missile Man of India,\" he played a central role in developing India's satellite launch vehicle and guided missile technology before entering public office.",
+    "p2": "Kalam's career bridged two of India's most significant scientific institutions — the Indian Space Research Organisation (ISRO) and the Defence Research and Development Organisation (DRDO) — and later, the highest constitutional office in the country. Throughout his life, he remained closely associated with science education and youth mentorship, earning him the affectionate title of the \"People's President.\""
+  },
+  "childhood": {
+    "p1": "Kalam was born on 15 October 1931 in Rameswaram, a pilgrim town in the Madras Presidency (present-day Tamil Nadu), into a Tamil Muslim family of modest means. His father, Jainulabdeen, owned a boat used for ferrying pilgrims, and his mother, Ashiamma, managed the household.",
+    "p2": "As a child, Kalam contributed to the family's income by distributing newspapers after school hours. Despite financial constraints, he was known for his curiosity and discipline in his studies, qualities that would define his later scientific career."
+  },
+  "education": {
+    "p1": "Kalam completed his early schooling at the Schwartz Higher Secondary School in Ramanathapuram before enrolling at Saint Joseph's College, Tiruchirappalli, where he graduated in physics in 1954.",
+    "p2": "He then moved to the Madras Institute of Technology (MIT) to pursue a degree in aerospace engineering, graduating in 1960. It was during this period that his lifelong interest in flight and rocketry took shape, setting the course for his future work."
+  },
+  "isroCareer": {
+    "p1": "Kalam began his professional career at the Aeronautical Development Establishment before joining the Indian National Committee for Space Research (INCOSPAR), which later evolved into the Indian Space Research Organisation (ISRO), in 1969.",
+    "p2": "As Project Director of the SLV-III (Satellite Launch Vehicle), Kalam led the team responsible for India's first indigenously developed satellite launch vehicle. The successful launch of the Rohini satellite into orbit in 1980 marked India's entry into the exclusive group of nations with independent satellite launch capability."
+  },
+  "drdoCareer": {
+    "p1": "In 1982, Kalam returned to the Defence Research and Development Organisation (DRDO) to direct the Integrated Guided Missile Development Programme (IGMDP), a comprehensive initiative to develop indigenous missile systems for India's strategic defence needs.",
+    "p2": "Under his leadership, DRDO laboratories developed a family of missile systems addressing different operational requirements, reducing India's dependence on imported defence technology and building substantial indigenous engineering capability."
+  },
+  "missileProgramme": {
+    "p1": "The Integrated Guided Missile Development Programme, sanctioned in 1983, brought together India's missile research under a unified framework. Kalam's leadership was instrumental in coordinating the programme's five principal missile systems.",
+    "agni": "Agni — a series of medium- and long-range ballistic missiles establishing India's strategic deterrence capability.",
+    "prithvi": "Prithvi — a short-range tactical surface-to-surface missile, among the first fully indigenous systems developed under the programme.",
+    "akash": "Akash — a medium-range surface-to-air missile for area air defence.",
+    "trishul": "Trishul — a short-range low-level quick-reaction surface-to-air missile.",
+    "nag": "Nag — a third-generation anti-tank guided missile with fire-and-forget capability.",
+    "p2": "This work established the scientific and engineering foundation that continues to underpin India's indigenous missile research programmes today."
+  },
+  "pokhran": {
+    "p1": "As Chief Scientific Adviser to the Prime Minister and Secretary of the Department of Defence Research and Development, Kalam played a key coordinating role in the Pokhran-II series of nuclear tests conducted in May 1998.",
+    "p2": "His contribution was primarily in the scientific and technical coordination between DRDO and the Atomic Energy Commission, an effort that required precise systems engineering and secrecy. The tests were a significant milestone in India's strategic self-reliance and were closely associated with Kalam's public profile as a scientist-statesman thereafter."
+  },
+  "presidency": {
+    "p1": "Kalam was elected the 11th President of India in 2002 with broad cross-party support, taking office on 25 July 2002. He was the first scientist and the third Muslim to hold the office.",
+    "p2": "As President, Kalam was known for his accessibility and his consistent focus on science education, youth empowerment, and national development. He regularly visited schools and universities throughout his term, encouraging students to pursue scientific inquiry and national service. He completed his term on 25 July 2007 and chose not to seek re-election."
+  },
+  "awards": {
+    "padmaBhushan": { "year": "1981", "title": "Padma Bhushan", "desc": "Awarded for his contributions to India's space programme." },
+    "padmaVibhushan": { "year": "1990", "title": "Padma Vibhushan", "desc": "Awarded for his contributions to science and engineering." },
+    "bharatRatna": { "year": "1997", "title": "Bharat Ratna", "desc": "India's highest civilian award, recognising his contributions to science and the missile programme." },
+    "indiraGandhi": { "year": "1997", "title": "Indira Gandhi Award for National Integration", "desc": "Recognising his contribution to national unity through science." },
+    "veerSavarkar": { "year": "1998", "title": "Veer Savarkar Award", "desc": "Recognising his contribution to national strategic capability." },
+    "honoraryDoctorates": { "year": "1997–2015", "title": "Honorary Doctorates", "desc": "Received honorary doctoral degrees from over 40 universities in India and abroad." }
+  },
+  "vision2020": {
+    "p1": "Vision 2020 refers to Kalam's long-term development framework, first articulated in his book \"India 2020: A Vision for the New Millennium\" (co-authored with Y.S. Rajan), outlining a roadmap for India to become a developed nation by the year 2020.",
+    "p2": "The vision emphasised self-reliance in agriculture, technology, education, healthcare, and defence, and stressed the importance of empowering rural India through infrastructure and information technology (an idea he termed PURA — Providing Urban Amenities in Rural Areas). Kalam frequently shared this vision directly with students during school and college visits throughout his life."
+  },
+  "quotes": [
+    "Dream is not that which you see while sleeping, it is something that does not let you sleep.",
+    "You have to dream before your dreams can come true.",
+    "If you want to shine like a sun, first burn like a sun.",
+    "Excellence is a continuous process and not an accident.",
+    "Man needs his difficulties because they are necessary to enjoy success.",
+    "Learning gives creativity, creativity leads to thinking, thinking provides knowledge, and knowledge makes you great."
+  ],
+  "timeline": {
+    "1931": "Born on 15 October in Rameswaram, Madras Presidency.",
+    "1954": "Graduated in Physics from Saint Joseph's College, Tiruchirappalli.",
+    "1960": "Graduated in Aerospace Engineering from Madras Institute of Technology.",
+    "1969": "Joined ISRO as Project Director of the SLV-III programme.",
+    "1980": "Led the successful launch of the Rohini satellite aboard SLV-III.",
+    "1982": "Returned to DRDO to direct the Integrated Guided Missile Development Programme.",
+    "1997": "Awarded the Bharat Ratna, India's highest civilian honour.",
+    "1998": "Served as Chief Scientific Adviser during the Pokhran-II nuclear tests.",
+    "2002": "Elected the 11th President of India.",
+    "2007": "Completed his presidential term on 25 July.",
+    "2015": "Passed away on 27 July while delivering a lecture at IIM Shillong."
+  },
+  "gallery": {
+    "note": "Reference imagery pending public-domain asset review. Photographs will be published here once appropriate licensing is confirmed."
+  },
+  "books": [
+    { "title": "Wings of Fire", "year": "1999", "desc": "An autobiography co-written with Arun Tiwari, chronicling his early life and scientific career." },
+    { "title": "India 2020: A Vision for the New Millennium", "year": "1998", "desc": "Co-authored with Y.S. Rajan, outlining a roadmap for India's development." },
+    { "title": "Ignited Minds: Unleashing the Power Within India", "year": "2002", "desc": "Reflections on unlocking India's youth potential." },
+    { "title": "The Luminous Sparks", "year": "2004", "desc": "A collection of his poetry and paintings." },
+    { "title": "Mission India", "year": "2005", "desc": "A vision for India's technological self-reliance." },
+    { "title": "Indomitable Spirit", "year": "2006", "desc": "Essays and reflections on perseverance and national purpose." },
+    { "title": "Turning Points: A Journey Through Challenges", "year": "2012", "desc": "A sequel to Wings of Fire, covering his presidency and later years." },
+    { "title": "Target 3 Billion", "year": "2011", "desc": "Co-authored, expanding on the PURA rural development model." },
+    { "title": "My Journey: Transforming Dreams into Actions", "year": "2013", "desc": "A reflective account of his life's milestones." },
+    { "title": "Forge Your Future: Candid, Inspiring Conversations with Dr. APJ Abdul Kalam", "year": "2014", "desc": "Advice to young readers on careers and purpose." }
+  ],
+  "legacy": {
+    "p1": "Kalam's legacy is most visible in the indigenous foundations he helped build for India's space and missile research institutions — foundations that continue to inform national aerospace and defence research programmes.",
+    "p2": "Beyond his scientific contributions, he is remembered for his direct engagement with students across the country, his emphasis on scientific temper and self-reliance, and his humility in public life. His birth anniversary, 15 October, is observed in parts of India as World Students' Day, recognising his lifelong commitment to education."
+  },
+  "faq": [
+    {
+      "q": "What was Dr. Kalam's role at ISRO?",
+      "a": "Dr. Kalam served as Project Director of the SLV-III programme at ISRO, leading the team that successfully launched India's first indigenous satellite launch vehicle in 1980."
+    },
+    {
+      "q": "What was the Integrated Guided Missile Development Programme?",
+      "a": "It was a DRDO initiative, sanctioned in 1983 and led by Kalam, to develop a family of indigenous missile systems — including Agni, Prithvi, Akash, Trishul, and Nag — reducing India's reliance on imported missile technology."
+    },
+    {
+      "q": "When did Dr. Kalam become President of India?",
+      "a": "He was elected the 11th President of India in 2002 and served a single term from 25 July 2002 to 25 July 2007."
+    },
+    {
+      "q": "What is Vision 2020?",
+      "a": "Vision 2020 is the development roadmap Dr. Kalam outlined in his book \"India 2020,\" proposing a path for India to become a developed nation, with emphasis on self-reliance, rural development, education, and technology."
+    },
+    {
+      "q": "How did Dr. Kalam pass away?",
+      "a": "Dr. Kalam passed away on 27 July 2015 after collapsing while delivering a lecture to students at the Indian Institute of Management Shillong."
+    }
+  ]
+}

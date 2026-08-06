@@ -1,0 +1,30 @@
+{
+  "orgTitleHi": "मिसाइलX रॉकेट स्पेस अनुसंधान",
+  "orgTitle": "मिसाइलX रॉकेट स्पेस रिसर्च",
+  "dashboard": "डैशबोर्ड",
+  "profile": "प्रोफ़ाइल",
+  "login": "लॉगिन",
+  "logout": "लॉगआउट",
+  "items": {
+    "home": "होम",
+    "about": "परिचय",
+    "aboutMissionVision": "मिशन और विज़न",
+    "aboutMissionVisionDesc": "मिसाइलX के उद्देश्य, अनुसंधान लक्ष्य और टीम।",
+    "aboutIsroLeadership": "इसरो नेतृत्व",
+    "aboutIsroLeadershipDesc": "भारत के अंतरिक्ष अनुसंधान कार्यक्रमों का नेतृत्व।",
+    "aboutKalam": "ए.पी.जे. अब्दुल कलाम",
+    "aboutKalamDesc": "भारत के मिसाइल वैज्ञानिक और दूरदर्शी नेता की विरासत।",
+    "activities": "गतिविधियाँ",
+    "research": "अनुसंधान",
+    "technology": "प्रौद्योगिकी",
+    "programs": "कार्यक्रम",
+    "missiles": "मिसाइलें",
+    "rockets": "रॉकेट प्रणाली",
+    "spaceSystems": "अंतरिक्ष प्रणाली",
+    "innovation": "नवाचार",
+    "gallery": "गैलरी",
+    "news": "समाचार",
+    "careers": "करियर",
+    "contact": "संपर्क"
+  }
+}

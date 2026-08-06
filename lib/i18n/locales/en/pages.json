@@ -1,0 +1,260 @@
+{
+  "notFound": {
+    "eyebrow": "Error 404",
+    "title": "This page could not be found.",
+    "description": "The page you are looking for may have been moved, renamed, or does not exist. Use the links below to find your way back.",
+    "backHome": "Return to Home",
+    "browseMissiles": "Browse Missile Systems",
+    "contactUs": "Contact Us"
+  },
+  "serverError": {
+    "eyebrow": "Error 500",
+    "title": "Something went wrong on our end.",
+    "description": "An unexpected error occurred while loading this page. Our team has been notified. Please try again.",
+    "retry": "Try again",
+    "backHome": "Return to Home"
+  },
+  "breadcrumbs": { "home": "Home" },
+  "dashboard": {
+    "control": "Control",
+    "welcomeBack": "Welcome back",
+    "description": "Manage research submissions, program enrollment, and platform activity from your secure MissileX dashboard.",
+    "viewProfile": "View Profile",
+    "submitResearch": "Submit Research",
+    "adminPanel": "Admin Panel",
+    "researchOperations": "Research Operations",
+    "adminTools": {
+      "manageUsers": { "title": "Manage Users", "description": "Review member accounts and adjust research roles." },
+      "approveProjects": { "title": "Approve Projects", "description": "Review and approve or reject research submissions." },
+      "manageNews": { "title": "Manage News & Gallery", "description": "Publish updates and curate gallery collections." }
+    },
+    "researcherTools": {
+      "mySubmissions": { "title": "My Submissions", "description": "Track the status of research projects you have submitted." },
+      "programEnrollment": { "title": "Program Enrollment", "description": "View program applications and cohort progress." }
+    }
+  },
+  "profile": {
+    "title": "My Profile",
+    "accountStatus": "Account Status",
+    "emailVerified": "Email verified",
+    "emailNotVerified": "Email not verified",
+    "verifiedDesc": "Your account has full access.",
+    "notVerifiedDesc": "Verify your email to unlock all features.",
+    "quickActions": "Quick Actions",
+    "goToDashboard": "Go to Dashboard",
+    "submitResearchProject": "Submit a Research Project",
+    "browsePrograms": "Browse Programs",
+    "savedProjects": "Saved Projects",
+    "noSavedProjects": "No saved projects yet",
+    "noSavedProjectsDesc": "Bookmark missiles, rocket systems, or research projects while browsing the portal to find them here.",
+    "browseMissiles": "Browse Missile Systems"
+  },
+  "contact": {
+    "eyebrow": "Contact Centre",
+    "title": "Connect with the research leadership team.",
+    "description": "Submit your research interest, program inquiry, or collaboration request.",
+    "intro": "Submit your research interest, program inquiry, or collaboration request. Our secure portal forwards your message directly to the admin research team.",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone",
+    "locationLabel": "Location",
+    "locationValue": "Defence Research & Aerospace Campus, Bengaluru"
+  },
+  "careers": {
+    "eyebrow": "Careers",
+    "title": "Opportunities in defence research, software engineering, and aerospace systems.",
+    "description": "Join MissileX as we build advanced mission systems, AI research labs, and secure aerospace technology platforms for national research initiatives.",
+    "openPositions": "Open Positions",
+    "openPositionsDesc": "Current openings across research and engineering.",
+    "requirements": "Requirements"
+  },
+  "research": {
+    "eyebrow": "Research",
+    "title": "The research portal for next-generation aerospace and defence systems.",
+    "description": "Submit research proposals, reference published findings, and collaborate with mission teams in a secure environment built for national research programs.",
+    "sidebar": { "overview": "Overview", "papers": "Research Papers", "publications": "Publications", "submit": "Submit a Project" },
+    "approachTitle": "Research approach",
+    "approachP1": "The MissileX research portal supports structured collaboration across guidance systems, satellite analytics, and mission architecture. Researchers document technology stacks, cite prior work, and submit conceptual findings for review by domain experts before publication.",
+    "approachP2": "Submissions may include project documentation, source repositories, and supporting media. Every submission is reviewed for research quality and conceptual boundaries before being catalogued alongside institutional publications.",
+    "papersTitle": "Research Papers",
+    "papersDesc": "Technical notes and working papers produced by MissileX research tracks.",
+    "publicationsTitle": "Publications",
+    "publicationsDesc": "Institutional reports and programme summaries.",
+    "submitTitle": "Submit a Research Project",
+    "submitDesc": "Project title, description, technology stack, GitHub link, and file attachments (PDF, PPT, image, video, ZIP up to 20MB)."
+  },
+  "programs": {
+    "eyebrow": "Programs",
+    "title": "Strategic programs advancing defence research and aerospace innovation.",
+    "description": "Research fellowship, career-building internship tracks, and concept-driven AI defence labs designed for high-integrity mission systems.",
+    "cycleEyebrow": "Application Cycle",
+    "cycleTitle": "How the application process works.",
+    "eligibilityEyebrow": "Eligibility",
+    "eligibilityTitle": "General eligibility criteria across programmes.",
+    "eligibilityDesc": "Specific programmes may add further requirements at the interview stage.",
+    "detailsEyebrow": "Programme Details",
+    "detailsTitle": "Six research and innovation programmes.",
+    "applicationEyebrow": "Application",
+    "applicationTitle": "Apply to a programme cohort.",
+    "steps": {
+      "step1": { "date": "Step 1", "title": "Applications open", "description": "Online application form accepts submissions for eight weeks." },
+      "step2": { "date": "Step 2", "title": "Screening & shortlisting", "description": "Applications are reviewed against programme eligibility criteria." },
+      "step3": { "date": "Step 3", "title": "Interview & proposal review", "description": "Shortlisted candidates present a short research proposal." },
+      "step4": { "date": "Step 4", "title": "Cohort begins", "description": "Selected candidates are onboarded with mentors and lab access." }
+    },
+    "eligibilityRows": {
+      "level": ["Academic Level", "Undergraduate, postgraduate, or early-career researcher"],
+      "duration": ["Duration", "3 – 12 months depending on programme track"],
+      "mode": ["Mode", "Hybrid — remote research with periodic on-site lab sessions"],
+      "window": ["Application Window", "Opens twice yearly, March and September"]
+    }
+  },
+  "gallery": {
+    "eyebrow": "Gallery",
+    "title": "Curated imagery from India's space and defence research programs.",
+    "description": "Launches, spacecraft integration, and research facility imagery, reproduced under the Government Open Data License – India (GODL) with attribution to the originating government body.",
+    "categories": {
+      "all": "All",
+      "Rocket Launches": "Rocket Launches",
+      "Satellites & Spacecraft": "Satellites & Spacecraft",
+      "Missiles": "Missiles",
+      "Defence Forces": "Defence Forces",
+      "Research Labs": "Research Labs"
+    }
+  },
+  "news": {
+    "eyebrow": "News",
+    "title": "Latest technology updates and research highlights.",
+    "description": "Coverage of platform developments, research publications, and defence aerospace collaboration milestones."
+  },
+  "missiles": {
+    "eyebrow": "Missile Systems",
+    "title": "Defence missile families with payload, guidance, and mission context.",
+    "description": "Overview of key missile categories used in modern defence research, from ballistic deterrence systems to air-to-air and surface-to-air interceptors.",
+    "table": { "designation": "Designation", "type": "Type", "range": "Range", "guidance": "Guidance" },
+    "detail": {
+      "backLink": "Back to Missile Systems",
+      "history": "History",
+      "techOverview": "Technology Overview",
+      "disclaimer": "Guidance overview only — this page does not describe targeting, arming, or operational employment procedures.",
+      "specifications": "Specifications",
+      "timeline": "Timeline",
+      "gallery": "Gallery",
+      "relatedResearch": "Related Research",
+      "illustrative": "Illustrative"
+    }
+  },
+  "rockets": {
+    "eyebrow": "Rocket Systems",
+    "title": "Launch vehicles and research-oriented payload systems.",
+    "description": "An overview of satellite launch vehicles, heavy lift systems, and scientific rocket platforms that support India's next generation aerospace programs.",
+    "table": { "vehicle": "Vehicle", "category": "Category", "payload": "Payload", "stages": "Stages" },
+    "detail": {
+      "backLink": "Back to Rocket Systems",
+      "technicalDocument": "Technical Document",
+      "sections": "Document Sections",
+      "overview": "1. Overview",
+      "specifications": "2. Specifications",
+      "launchHistory": "3. Launch History",
+      "gallery": "4. Gallery",
+      "missionProfile": "Mission profile:",
+      "dataSheet": "Technical Data Sheet"
+    }
+  },
+  "technology": {
+    "eyebrow": "Technology · Conceptual AI Research",
+    "title": "Conceptual AI defence and aerospace research technologies.",
+    "description": "Research concepts in AI mission planning, sensor fusion, satellite analytics, and digital twin architectures — presented at a conceptual level only.",
+    "areasEyebrow": "Research Areas",
+    "areasTitle": "Eight conceptual research tracks.",
+    "boundaryLabel": "Concept Boundary",
+    "boundaryP1": "All research narratives remain conceptual with a focus on planning, analytics, and system integration without describing weapon employment.",
+    "boundaryP2": "Digital Twin research uses virtual system replicas for testing mission scenarios, threat resilience, and sensor network behaviour.",
+    "boundaryP3": "Real-time monitoring concepts describe dashboards for platform health, telemetry flow, and research progress tracking."
+  },
+  "activities": {
+    "eyebrow": "Activities",
+    "title": "Active research streams and mission capability programs.",
+    "description": "Discover the active workstreams driving MissileX research, from launch systems to AI defence concepts and gallery insights."
+  },
+  "innovation": {
+    "eyebrow": "Innovation",
+    "title": "Where early-stage research becomes tomorrow's aerospace technology.",
+    "description": "MissileX runs structured innovation tracks that pair student and researcher ideas with mentorship, lab access, and rigorous review.",
+    "featuredConcept": "Featured Concept",
+    "featuredConceptTitle": "MissileX Integrated Defence Platform",
+    "featuredConceptDesc": "A high-level, conceptual research proposal connecting AI, aerospace, and sensing research disciplines.",
+    "programmesEyebrow": "Programmes",
+    "programmesTitle": "Six research and innovation programmes.",
+    "closingPart1": "Ready to bring a research idea forward? Visit the",
+    "closingProgramsLink": "Programs",
+    "closingPart2": "page to apply, or explore the",
+    "closingResearchLink": "Research Portal",
+    "closingPart3": "to submit a project."
+  },
+  "spaceSystems": {
+    "eyebrow": "Space Systems",
+    "title": "Mission timeline for India's flagship space programs.",
+    "description": "An educational overview of major Indian space missions — the launch vehicles that carried them, their scientific objectives, and current status.",
+    "timelineEyebrow": "Mission Timeline",
+    "timelineTitle": "Flagship missions and their objectives.",
+    "objectiveLabel": "Objective",
+    "achievementsEyebrow": "Achievements",
+    "achievementsTitle": "Milestones in India's space and strategic research history."
+  },
+  "concept": {
+    "eyebrow": "Research Concept",
+    "title": "MissileX Integrated Defence Platform",
+    "description": "A futuristic, high-level research proposal exploring how advances in AI, aerospace engineering, and sensing systems could someday be studied together as a unified defence research concept.",
+    "disclosureLabel": "Important disclosure",
+    "disclosureBody": "This page describes a conceptual research proposal only. The MissileX Integrated Defence Platform does not exist as a built system, is not operational, and this page contains no engineering instructions, targeting logic, or weapon-construction detail.",
+    "intro": "Modern defence and space research increasingly draws on the same underlying disciplines — machine learning, distributed sensing, orbital mechanics, and systems integration. Rather than studying these fields in isolation, this research concept imagines a shared architecture that connects them at a conceptual level, purely for research, education, and long-range planning discussion.",
+    "pillarsEyebrow": "Research Pillars",
+    "pillarsTitle": "Five conceptual research areas.",
+    "pillars": {
+      "sensorFusion": { "title": "Sensor Fusion Layer", "description": "A conceptual framework for combining radar, satellite imagery, and telemetry streams into a single situational picture for research and planning purposes." },
+      "aiDecision": { "title": "AI Decision Support", "description": "Research-stage models that assist human analysts with mission scheduling, resource allocation, and anomaly flagging — always with a human in the loop." },
+      "spaceAwareness": { "title": "Space & Aerial Awareness", "description": "Integrating orbital and aerial data sources to study coverage gaps and inform future satellite and sensor placement research." },
+      "systemsIntegration": { "title": "Systems Integration Studies", "description": "Academic exploration of how independently developed defence subsystems could interoperate through shared data standards." },
+      "digitalTwin": { "title": "Digital Twin Simulation", "description": "Virtual environments for rehearsing mission scenarios and stress-testing coordination logic without touching physical hardware." }
+    },
+    "boundariesLabel": "Research Boundaries",
+    "boundariesTitle": "What this concept intentionally excludes",
+    "boundaries": {
+      "weapon": "No weapon design, construction, or arming procedures",
+      "targeting": "No targeting, guidance-command, or attack-execution logic",
+      "claim": "No claim that any part of this platform has been built or deployed",
+      "classified": "No operational, classified, or export-controlled information"
+    }
+  },
+  "isroLeadership": {
+    "eyebrow": "ISRO Leadership",
+    "title": "Overview of the leadership supporting India's space research programs.",
+    "description": "A high-level, educational overview of leadership roles and administrative guidance in advancing India's space research agenda.",
+    "chairmanTitle": "Current Chairman",
+    "chairmanBody": "Current leadership focuses on space exploration strategy, satellite navigation programs, and collaborative international research missions.",
+    "programmeTitle": "The Indian Space Programme",
+    "programmeBody": "India's space programme encompasses launch vehicles, satellite systems, and scientific missions for national development and technological independence.",
+    "pastChairmenTitle": "Past Chairmen",
+    "pastChairmenBody": "Notable predecessors set the foundation for modern launch capability, satellite innovation, and global partnerships — driving geosynchronous missions, remote sensing systems, and human spaceflight planning.",
+    "focusAreasLabel": "Focus Areas",
+    "focusAreasBody": "Launch vehicles, earth observation, satellite navigation and scientific exploration missions.",
+    "directionLabel": "Programme Direction",
+    "directionBody": "The leadership portfolio emphasises integrated research, cross-disciplinary collaboration, and operational excellence."
+  },
+  "privacy": {
+    "eyebrow": "Privacy Policy",
+    "title": "Protecting research data, user privacy, and secure collaboration.",
+    "description": "MissileX maintains strict controls for user data, research submissions, authentication flows, and email communications in alignment with enterprise-grade privacy practices.",
+    "p1": "We collect user-provided registration data, contact submissions, and research information to provide platform services and review workflows. Sensitive information is only used for authentication, communication, and authorisation purposes.",
+    "p2": "All messages and submissions are routed securely to the designated admin inbox; no data is shared externally without consent and strict access control.",
+    "p3": "Users have the right to request data correction or account deletion through the secure portal contact mechanism."
+  },
+  "terms": {
+    "eyebrow": "Terms of Service",
+    "title": "Terms for using the MissileX research platform.",
+    "description": "By accessing this site, users agree to use the platform responsibly, respect data security, and submit research content in line with platform governance and national research guidelines.",
+    "p1": "Users are responsible for maintaining their account credentials and for all actions taken while signed in.",
+    "p2": "Research submissions and messages must be accurate and must not contain unauthorized or sensitive operational information.",
+    "p3": "MissileX reserves the right to suspend accounts that violate platform policies or compromise secure research workflows."
+  }
+}
