@@ -18,9 +18,8 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
-    "types": [
-      "node"
-    ],
+    "ignoreDeprecations": "6.0",
+    "types": ["node"],
     "baseUrl": ".",
     "paths": {
       "@/components/*": [

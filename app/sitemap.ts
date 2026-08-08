@@ -2,6 +2,8 @@ import type { MetadataRoute } from 'next';
 import { missiles } from '@/lib/missiles';
 import { rockets } from '@/lib/rockets';
 
+export const dynamic = 'force-static';
+
 const baseUrl = 'https://missilex-rocket-space.vercel.app';
 
 const staticRoutes = [
